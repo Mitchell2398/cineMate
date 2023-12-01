@@ -1,0 +1,227 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Roboto+Slab:wght@300;400;500;700&family=Work+Sans:wght@300;400;700&display=swap');
+
+
+body,
+html {
+  padding: 0;
+  font-size: 18px;
+  font-family: "Roboto Slab";
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(63,177,109,1) 35%, rgba(0,12,54,1) 100%);
+}
+
+.container {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 100svh;
+}
+
+p {
+font-family: "Roboto Slab";
+}
+.appContainer {
+  width: 100%;
+  max-width: 600px;
+  min-height: 650px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #00071f;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: block;
+  max-width: 170px;
+  margin: 0px auto;
+}
+
+.question {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.answerTextArea {
+  width: calc(100% - 20px);
+  margin-bottom: 20px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  color: white;
+  background-color: #3b4877;
+}
+
+.answerTextArea::-webkit-input-placeholder {
+font-family: "Roboto Slab";
+  color: #000c36;
+}
+
+.tag {
+  background-color: #51e08a;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.tag.selected {
+  background-color: white;
+  color: #000c36;
+}
+
+.tag:not(.selected):hover {
+  background-color: #3fb16d;
+}
+
+button {
+  background-color: #51e08a;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-family: "Roboto Slab";
+}
+
+button:hover {
+  background-color: #3fb16d;
+}
+
+.submit {
+  background-color: #d80000;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #3fb16d;
+}
+
+.submitWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.loaderWrapper {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 500px; 
+  width: 100%; 
+}
+
+.loader {
+  border: 5px solid #00071f; 
+  border-top: 5px solid #51e08a; 
+  border-radius: 50%; 
+  width: 100px; 
+  height: 100px; 
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+/* Movie reccomendation css */
+.recWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  min-height: 650px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #00071f;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.recContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 400px;
+}
+
+.poster {
+  max-width: 400px; 
+  max-height: 450px; 
+  width: 100%; 
+  object-fit: cover;
+  height: auto; 
+  border-radius: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.movieTitle {
+  align-self: start;
+}
+
+.description {
+  align-self: start;
+}
+
+.nextMovie {
+  background-color: #51e08a;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  align-self: stretch;
+}
+
+.nextMovie:hover {
+  background-color: #3fb16d;
+}
+
+.return {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: #d80000;
+}
