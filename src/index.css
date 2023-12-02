@@ -29,7 +29,7 @@ font-family: "Roboto Slab";
   width: 100%;
   max-width: 600px;
   min-height: 650px;
-  margin: auto;
+  margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
   background-color: #00071f;
