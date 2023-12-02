@@ -210,7 +210,7 @@ function App() {
         />
       ) : (
         <div className="appContainer">
-          <img className="logo" src="src/assets/logo.png" alt="logo" />
+          <img className="logo" src="https://res.cloudinary.com/dheko2ynz/image/upload/v1701528261/logo_oxz9da.png" alt="logo" />
 
           {loading ? (
             <div className="loaderWrapper">
