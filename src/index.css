@@ -8,17 +8,18 @@ html {
   margin: 0;
   font-size: 18px;
   font-family: "Roboto Slab";
- 
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(63,177,109,1) 35%, rgba(0,12,54,1) 100%);
+  height: 100vh;
 }
 
 .container {
   display: flex;
-  padding: 40px 20px;
+  padding: 20px 10px;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background: rgb(2,0,36);
-  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(63,177,109,1) 35%, rgba(0,12,54,1) 100%);
+ height: 100svh;
+ 
 }
 
 p {
