@@ -13,10 +13,10 @@ html {
 
 .container {
   display: flex;
-  padding: 40PX 20px;
+  padding: 40px 20px;
   justify-content: center;
   align-items: center;
-  height: 100svh;
+  height: 100vh;
   background: rgb(2,0,36);
   background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(63,177,109,1) 35%, rgba(0,12,54,1) 100%);
 }
