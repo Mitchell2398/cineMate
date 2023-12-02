@@ -13,7 +13,7 @@ html {
 
 .container {
   display: flex;
-  margin: 10px;
+  margin: 20px;
   justify-content: center;
   align-items: center;
   height: 100svh;
