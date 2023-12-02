@@ -13,7 +13,7 @@ html {
 
 .container {
   display: flex;
-  padding: 40 20px;
+  padding: 40PX 20px;
   justify-content: center;
   align-items: center;
   height: 100svh;
